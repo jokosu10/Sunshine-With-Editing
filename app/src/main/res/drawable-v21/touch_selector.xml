@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--state when row is being pressed-->
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/sunshine_light_blue"/>
+
+    <!--when view is activated-->
+    <item
+        android:state_activated="true"
+        android:drawable="@color/sunshine_light_blue"/>
+
+    <!--default state-->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

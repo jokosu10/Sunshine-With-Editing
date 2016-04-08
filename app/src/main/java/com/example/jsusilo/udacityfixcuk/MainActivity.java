@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+        //just commentssss
         /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);*/
         mLocation = Utility.getPreferredLocation(this);
